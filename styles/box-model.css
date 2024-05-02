@@ -1,0 +1,16 @@
+.callout {
+	box-sizing: border-box;
+    background-color: royalblue;
+}
+
+.callout img {
+	position: relative;
+}
+
+blockquote {
+	margin: 10px;
+}
+
+cite {
+	text-align: left;
+}
