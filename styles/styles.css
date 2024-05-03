@@ -30,12 +30,12 @@ main {
 }
 
 aside {
-    width: ;
-    margin: ;
-    border: ;
-    padding: ;
-    background-color: ;
-    color: ;
+    width: 400px;
+    margin: 20px 0 10px 0;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    padding: 20px 0 10px 10px;
+    background-color: #dec8a0;
+    color: #000000;
 }
 
 aside img {
@@ -43,7 +43,7 @@ aside img {
     height: auto;
 }
 
-footer p {
+footer {
     margin-top: 10px;
     border-top: 10px solid white;
     text-align: center;
