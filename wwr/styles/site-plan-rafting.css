@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* body {
+    font-family: var(--open-sans);
+    max-width: 960px;
+    padding: 20px;
+} */
+
+:root {
+    --primary-color: #283618;
+    --secondary-color: #606C38;
+    --accent1-color: #FEFAE0;
+    --accent2-color: #DDA15E;
+
+    --heading-font: 'play display', serif;
+    --paragraph-font: 'open sans', serif;
+
+    --nav-background-color: #FEFAE0;
+    --nav-link-color: #606C38;
+    --nav-hover-link-color: #283618;
+    --nav-hover-background-color: #DDA15E;
+}
+
+
+body {
+    font-family: var(--open-sans);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+
+p {
+    padding: 25px;
+}
+
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
