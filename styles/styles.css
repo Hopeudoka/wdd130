@@ -41,8 +41,8 @@ main {
 }
 
 aside {
-    width: 400px;
     position: relative;
+    width: 400px;
 }
 
 aside h2{
@@ -69,5 +69,8 @@ footer {
     padding: 1rem;
     background-color: #dec8a0;
     color: #000000;
-    width: 400px;
+}
+
+.indent {
+    padding-left: 30px;
 }
