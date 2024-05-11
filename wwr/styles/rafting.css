@@ -62,9 +62,10 @@ p {
 
 .hero article {
     position: absolute;
-    bottom: 150px;
+    bottom: 50px;
     background-color: rgb(221, 161, 94, 0.7);
-
+    margin: 3em;
+    padding: 1em;
 }
 
 .hero article img {
