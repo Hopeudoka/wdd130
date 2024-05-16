@@ -52,6 +52,7 @@ aside {
     width: 300px;
     grid-column: 1;
     grid-row: 1/2;
+    align-self: stretch;
 }
 
 aside h2{
@@ -85,9 +86,13 @@ footer {
 }
 
 header, .grid, footer {
-    display: grid;
     max-width: 840px;
     margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 main {
