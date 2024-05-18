@@ -125,6 +125,7 @@ header a:hover {
     width: 250px;
     padding: 20px;
     height: auto;
+    align-self: center;
 }
 
 .adventure_layout {
@@ -138,9 +139,21 @@ header a:hover {
 }
 
 .adventure_layout img {
-    width: 80px;
+    width: 150px;
     height: auto;
     justify-content: space-evenly;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
 }
 
 
