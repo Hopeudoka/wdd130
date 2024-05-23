@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Quiz Form | Hope Udoka</title>
-        <link rel="stylesheet" href="styles/">
+        <link rel="stylesheet" href="styles/quiz.css">
         <meta name="author" content="Hope Udoka">
         <meta name="description" content="A quiz form page for wdd 130">
     </head>
@@ -12,11 +12,11 @@
         <h1>HTML / CSS Quiz Form</h1>
 
         <form>
-            <label for="q1">1. Question?: <input type="text" id="q1" name="q1"></label>
-            
-            <label for="q2">2. Question?: <textarea id="q2" name="q2"></textarea></label>
-
-            <label for="q3">3. Question?:
+            <label for="q1">1. Question?:</label>
+            <input type="text" id="q1" name="q1">
+            <label for="q2">2. Question?:</label>
+            <textarea id="q2" name="q2"></textarea>
+            <label for="q3">3. Question?:</label>
                 <select id="q3" name="q3">
                     <option value="" selected disabled>Select one</option>
                     <option value="1">##</option>
@@ -24,10 +24,9 @@
                     <option value="3">##</option>
                     <option value="4">##</option>
                 </select>
-            </label>
 
-            <label for="q4">4. Question?: <input type="number" id="q4" name="q4"></label>
-
+            <label for="q4">4. Question?:</label>
+            <input type="number" id="q4" name="q4">
             <button type="submit">Submit Quiz</button>
         </form>
     </body>
