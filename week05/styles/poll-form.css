@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playfair Display", "Open Sans";
+    font-size: 1em;
+    /* width: 600px; */
+    color: black;
+    background-color: white;
+}
+
+header, h1 {
+    text-align: center;
+    color: royalblue;
+}
+
+form {
+    display: grid;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 15px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+legend {
+    font-family: "Open Sans";
+    color: royalblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 4px;
+    font-size: 18px;
+}
+
+input[type="checkbox"] {
+    width: 50px;
+    height: auto;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 2em;
+    background-color: blueviolet;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+    width: 200px;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+
+#checkbox {
+    display: flex;
+    justify-self: center;
+    margin-left: 70px;
+}
+
+#feedback {
+    display: block;
+    justify-self: center;
+    text-align: center;
+}
+
+textarea {
+    width: 500px;
+    height: 80px;
+    margin-top: 10px;
+}
