@@ -220,6 +220,7 @@ button {
     background-color: royalblue;
     font-size: large;
     font-weight: bold;
+    color: white;
 }
 
 button:hover {
