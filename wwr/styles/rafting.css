@@ -165,12 +165,17 @@ header a:hover {
 }
 
 .footer_layout p {
-    justify-self: center;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: #DDA15E;
 }
 
 .sociallinks img {
     width: 40px;
     height: auto;
+    margin: 0 auto;
 }
 
 .contact {
