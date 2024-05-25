@@ -14,7 +14,6 @@ form {
     grid-template-columns: 1fr;
     border: 1px solid black;
     background-color: whitesmoke;
-    /* color: royalblue; */
     padding: 20px;
     width: 600px;
     justify-self: center;
@@ -26,9 +25,11 @@ label {
 }
 
 input,
+button,
 textarea,
 select {
     padding: 8px;
+    margin: 10px;
 }
 
 textarea {
@@ -45,4 +46,10 @@ button {
 
 button:hover {
     background-color: beige;
+}
+
+p {
+    display: inline;
+    color: royalblue;
+    font-weight: bold;
 }
