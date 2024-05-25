@@ -22,6 +22,7 @@ body {
     color: #000000;
     width: 800px;
     box-sizing: border-box;
+    /* display: grid; */
 }
 
 h1, h2 {
@@ -144,15 +145,15 @@ header a:hover {
     justify-content: space-evenly;
 }
 
-figure {
+.adventure_layout figure {
     display: flex;
     flex-flow: column;
     padding: 5px;
     max-width: 220px;
-    margin: auto;
+    margin: 0 auto;
 }
 
-figcaption {
+.adventure_layout figcaption {
     text-align: center;
 }
 
@@ -170,4 +171,81 @@ figcaption {
 .sociallinks img {
     width: 40px;
     height: auto;
+}
+
+.contact {
+    background-color: #DDA15E;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid black;
+    padding: 40px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: #DDA15E;
+}
+
+input,
+label,
+button,
+textarea {
+    padding: 8px;
+}
+
+.list {
+    display: grid;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+#checkbox {
+    display: inline;
+    padding: 20px 0;
+}
+
+p {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+button {
+    background-color: royalblue;
+    font-size: large;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: olivedrab;
+}
+
+.employee_layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.employee_layout h2 {
+    grid-column: 1/4;
+    margin-bottom: 40px;
+}
+
+.employee_layout img {
+    width: 150px;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.adventure_layout figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+.adventure_layout figcaption {
+    text-align: center;
 }
