@@ -36,11 +36,11 @@ textarea {
 }
 
 button {
-    margin: 30px;
+    margin-top: 30px;
     padding: 10px;
     font-size: large;
     background-color: bisque;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 button:hover {
