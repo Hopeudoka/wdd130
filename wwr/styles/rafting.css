@@ -17,16 +17,12 @@
 }
 
 body {
-    /* font-family: var(--paragraph-font); */
     font-family: 'open sans';
     color: #000000;
-    /* width: 800px; */
     box-sizing: border-box;
-    /* display: grid; */
 }
 
 h1, h2 {
-    /* font-family: var(--heading-font); */
     font-family: 'Playfair Display';
     color: #000000;
     text-align: center;
@@ -34,7 +30,6 @@ h1, h2 {
 
 p {
     font-family: 'Open sans';
-    /* font-family: var(--paragraph-font); */
 }
 
 .sociallinks a {
@@ -409,9 +404,6 @@ tbody > tr > td:last-of-type {
 .left {
     background-color: #e3f2fd; 
     width: 95%;
-}
-
-.right {
     border: 0;
     background-color: white;
 }
