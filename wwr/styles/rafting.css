@@ -20,7 +20,7 @@ body {
     /* font-family: var(--paragraph-font); */
     font-family: 'open sans';
     color: #000000;
-    width: 800px;
+    /* width: 800px; */
     box-sizing: border-box;
     /* display: grid; */
 }
@@ -39,6 +39,7 @@ p {
 
 .sociallinks a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .hero {
@@ -56,7 +57,7 @@ p {
     display: flex;
     justify-content: center;
     width: 100%;
-    top: 50px;
+    top: 100px;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -91,16 +92,18 @@ nav {
 
 header nav {
     justify-content: right;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 header img {
+    padding-left: 20px;
     width: 100px;
 }
 
 header nav a {
     text-decoration: none;
     padding: 10px;
+    cursor: pointer;
     color: #000000;
 }
 
@@ -219,6 +222,7 @@ p {
 button {
     background-color: royalblue;
     font-size: large;
+    cursor: pointer;
     font-weight: bold;
     color: white;
 }
@@ -238,10 +242,16 @@ button:hover {
     margin-bottom: 40px;
 }
 
-.employee_layout img {
-    width: 150px;
-    height: auto;
-    justify-content: space-evenly;
+.employee_layout figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: 0 auto;  
+}
+
+.employee_layout figcaption {
+    text-align: center;
 }
 
 .adventure_layout figure {
@@ -249,9 +259,207 @@ button:hover {
     flex-flow: column;
     padding: 5px;
     max-width: 220px;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
 .adventure_layout figcaption {
     text-align: center;
+}
+
+
+
+.trip_image {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 30px;
+}
+
+.trip_image img {
+    grid-column: 1/3;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#book {
+    margin: 0 auto;
+}
+
+.trip_image a {
+    text-decoration: none;
+    color: white;
+}
+
+.trip_image a:hover {
+    text-decoration: underline;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.trips h1 {
+    grid-column: 1/5;
+}
+
+.trips figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 200px;
+    margin: 0 auto;  
+}
+
+.trips img {
+    max-width: 100%;
+    height: auto;
+}
+
+.trips figcaption {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.link-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: royalblue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.link-button:hover {
+    background-color: olivedrab;
+    text-decoration: underline;
+    color: white;
+}
+
+#table_adjust {
+    margin-top: 130px;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font: 16px var(--paragraph-font);
+    text-align: center;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 4px 8px;
+}
+
+th {
+    vertical-align: bottom;
+}
+
+thead > tr {
+    background-color: #DDA15E;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+
+tbody > tr > th:first-of-type {
+    text-align: left;
+    background-color: rgb(225 229 244);
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+tbody > tr > td:last-of-type {
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    width: 50%; 
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}
+
+.left {
+    background-color: #e3f2fd; 
+    width: 95%;
+}
+
+.right {
+    border: 0;
+    background-color: white;
+}
+
+.adjust {
+    padding-top: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.adjust button {
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content figure img {
+    width: 300px;
+    height: auto;
+}
+
+.content figcaption {
+    text-align: center;
+}
+
+.side {
+    display: grid;
+    text-align: center;
+}
+
+.side img {
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.side p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home img {
+    width: 100%;
+}
+
+#page {
+    margin-bottom: 60px;
 }
